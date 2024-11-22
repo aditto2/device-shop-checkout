@@ -1,22 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Device Shop Checkout</title>
+    <link rel="stylesheet" href="styles/color.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <header>
-
-    </header>
-
     <main>
+        <div class="header">
+            <h3>Checkout</h3>
+        </div>
 
+        <section>
+            <div class="box1">
+                <div class="item-1">
+                    <div class="iPhone">
+                        <img src="resources/Gold@2x.png" alt="">
+                        <p><b>iPhone 12 Pro </b><br> <br>
+                            Golden <br> <br> x 1</p>
+                    </div>
+                    <p><b>$999.00</b></p>
+                </div>
+                <div class="item-2">
+                    <div class="apple-watch">
+                        <img src="resources/Apple-watchx2.png" alt="">
+                        <p><b>Apple Watch</b><br> <br>
+                            Blue <br> <br> x 1</p>
+                    </div>
+                    <p><b>$399.00</b></p>
+                </div>
+                <div class="item-3">
+                    <div class="iMac">
+                        <img src="resources/iMac@2x.png" alt="">
+                        <p><b>iMac</b> <br> <br>
+                            Green <br> <br> x 1</p>
+                    </div>
+                    <p><b>$1199.00</b></p>
+                </div>
+                <hr>
+                <div class="input-container">
+                    <div class="coupon-container">
+                        <input class="coupon" type="text" placeholder="Enter coupon code">
+                        <input class="submit" type="submit" value="Apply Coupon">
+                    </div>
+                    <div class="price">
+                        <div class="text">
+                            <p><b>Sub total</b></p><br>
+                            <p><b>Tax</b></p><br>
+                            <p><b>Total</b></p><br>
+                        </div>
+                        <div class="number">
+                            <p><b>$2597.00</b></p><br>
+                            <p><b>$623.28</b></p><br>
+                            <p><b>$3220.28</b></p><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box2">
+                <h3>Contact Information</h3>
+                <h4>First & Last name</h4>
+                <input type="text" placeholder="Enter first name and last name">
+                <h4>Email Address</h4>
+                <input type="email" placeholder="Enter email address ">
+                <div class="place">
+                    <div class="country">
+                        <h4>Country</h4>
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-
-    <footer>
-
-    </footer>
-    
 </body>
+
 </html>

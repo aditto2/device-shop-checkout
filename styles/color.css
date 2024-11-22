@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* header-section */
+.header {
+    background-image: url("../resources/background-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.header h3 {
+    font-size: 900;
+    font-weight: 1.5rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* main-section */
+
+/* items */
+
+
+.box1 {
+    background-color: #D2D5DA;
+    padding: 50px;
+
+    font-size: 600;
+    font-weight: 1rem;
+}
+
+img {
+    width: 100px;
+    padding: 10px 20px;
+    background-color: #F3F4F6;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.item-1 {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+
+.iPhone {
+    display: flex;
+    gap: 20px;
+}
+
+.item-1 p {
+    padding-top: 20px;
+}
+
+.item-2 {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.item-2 p {
+    padding-top: 20px;
+}
+
+.apple-watch {
+    display: flex;
+    gap: 28px;
+}
+
+.item-3 {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.iMac {
+    display: flex;
+    gap: 28px;
+}
+
+.iMac p {
+    padding-top: 20px;
+}
+
+/* coupon-div */
+
+
+
+.coupon-container {
+    padding: 100px 50px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.coupon {
+    padding: 20px 100px 20px 30px;
+    border: none;
+    border-radius: 10px;
+    /* margin-right: 50px; */
+}
+
+.submit {
+    padding: 20px 20px 20px;
+    background-color: #1D1D1F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}
+
+/* cost */
+
+.price{
+    display: flex;
+    justify-content: space-around;
+}
