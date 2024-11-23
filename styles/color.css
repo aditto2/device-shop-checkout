@@ -27,10 +27,10 @@
 
 
 .box1 {
-    width: 100%;
+    /* width: auto; */
+    width: 50%;
     background-color: #D2D5DA;
-    padding: 50px;
-    /* border: #1D1D1F solid 2px; */
+    padding: 30px 20px 30px 50px;
     border-radius: 50px 0px 0 50px;
     font-size: 600;
     font-weight: 1rem;
@@ -96,11 +96,11 @@ img {
 
 
 .coupon-container {
-    padding: 50px 50px;
+    padding: 50px 20px;
     align-items: center;
     text-align: center;
     display: flex;
-    gap: 100px;
+    gap: 50px;
 }
 
 .coupon {
@@ -128,27 +128,28 @@ img {
 /* box2-started */
 
 .box2 {
-    width: 100%;
+    /* width: auto; */
+    width: 50%;
     background-color: #F3F4F6;
-    padding: 50px 100px;
+    padding: 50px 60px;
     /* border: #1D1D1F solid 2px; */
     border-radius: 0px 50px 50px 0px;
 }
 
-.info{
+.info {
     padding-bottom: 100px;
 }
 
-.info > h3{
+.info>h3 {
     padding-bottom: 50px;
 }
 
-.name{
+.name {
     margin-bottom: 50px;
 }
 
 .info input {
-    width: 100%;
+    width: 80%;
     padding: 20px 20px 20px 30px;
     border: 1px solid;
     border-radius: 10px;
@@ -157,32 +158,30 @@ img {
 
 input::placeholder {
     color: #1D1D1F;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
 }
 
-.country > h4 , .code>h4 {
-    padding-bottom: 50px;
-}
+
 
 .place {
     display: flex;
-    gap: 50px;
+    gap: 10px;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 50px;
 }
-
 
 .place input {
-    padding: 20px 30px 20px 18px;
+    width: 170px;
+    padding: 20px 10px 20px 10px;
+    border: 1px solid;
     border-radius: 10px;
     background-color: #E5E7EB;
 }
 
-.code input {
-    padding: 20px 30px 20px 18px;
-    border-radius: 10px;
-    background-color: #E5E7EB;
+.place h4 {
+    padding-bottom: 10px;
 }
 
 .btn {
@@ -198,13 +197,53 @@ input::placeholder {
 
 .main-section {
     display: flex;
-    margin: 0 40px 40px 40px;
+    margin: 0 50px 30px;
+    margin-left: 30px;
     position: relative;
     bottom: 300px;
-    /* right: -80px; */
+    /* align-items: center; */
     /* border: solid 2px red; */
 }
 
 @media screen and (max-width:640px) {
+    .header {
+        background-image: url(../resources/background-image.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+
+    .main-section {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        bottom: 50px;
+        margin: 0 10px 20px 30px;
+    }
+
+    .box1 {
+        width: 100%;
+        border-radius: 50px 50px 0 0px;
+    }
+
+    .coupon-container {
+        padding: 30px 10px;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        /* gap: 10px; */
+    }
     
+    .coupon {
+        padding: 20px 50px 20px 30px;
+    }
+    
+    .submit {
+        padding: 20px 20px 20px;
+    }
+
+    .box2 {
+        width: 100%;
+        border-radius: 0 0 50px 50px;
+    }
 }
